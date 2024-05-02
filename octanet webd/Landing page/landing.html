@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-Drama World</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>K-Drama World</h1>
+        <p>Your Ultimate Source for Korean Dramas</p>
+    </header>
+
+    <section id="featured-dramas">
+        <h2>Featured Dramas</h2>
+        <div class="drama-card" onclick="showDramaDetails('Hometown cha cha cha', 'Romantic comedy , Slice of life', 'kim Seon-ho', 'Shin Min-a')">
+            <img src="Hometownchachacha.jpeg" alt="Hometownchachacha">
+            <h3>Hometown Cha Cha Cha</h3>
+            </div>
+            <section id="drama-details" class="hidden">
+                <button onclick="hideDramaDetails()">Back to Featured Dramas</button>
+                <div id="drama-info">
+                    <!-- Drama details will be dynamically populated here using JavaScript -->
+                </div>
+            </section>
+        <div class="drama-card" onclick="showDramaDetails('Reborn Rich', 'fantasy, Period, Revenge', 'Song Joon ki', 'Shin hyun been')">
+            <img src="Reborn Rich.jpeg" alt="Reborn Rich">
+            <h3>Reborn Rich</h3>
+        </div>
+        <!-- Add more drama cards as needed -->
+    </section>
+    <footer>
+        <p>&copy; 2023 K-Drama World. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
